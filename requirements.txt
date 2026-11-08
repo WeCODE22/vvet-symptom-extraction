@@ -1,0 +1,8 @@
+fastapi==0.162.2
+uvicorn==0.54.0
+httpx==0.28.1
+pydantic==2.14.3
+pytest==9.2.0
+python-dotenv==1.2.4
+# The FastAPI test client imports httpx2. The app itself uses httpx.
+httpx2==2.16.0
